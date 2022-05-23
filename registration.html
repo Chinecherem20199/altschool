@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registration.css" />
+    <title>Register form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title">Registration Form</h1>
+      <form class="form" action="/action_page.php">
+        <div class="input_field">
+          <label>First Name</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="First Name"
+            name="First Name"
+            required
+          />
+        </div>
+        <div class="input_field">
+          <label>Last Name</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="Last Name"
+            name="Last Name"
+            required
+          />
+        </div>
+        <div class="input_field">
+          <label>Phone</label>
+          <input
+            type="number"
+            class="input"
+            placeholder="Phone"
+            name="Phone"
+            required
+          />
+        </div>
+        <div class="input_field">
+          <label for="gender"> Select you gender</label>
+          <select class="custom_select" name="gender">
+            <option value="none" selected>Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">other</option>
+          </select>
+        </div>
+        <div class="input_field">
+          <label>Country</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="Country"
+            name="Country"
+            required
+          />
+        </div>
+        <div class="input_field">
+          <label>State/Province</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="State/Province"
+            name="State/Province"
+            required
+          />
+        </div>
+        <div class="input_field">
+          <label>Usernmae</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="Username"
+            name="Username"
+            required
+          />
+        </div>
+        <div class="input_field">
+          <label>Password</label>
+          <input
+            type="password"
+            class="input"
+            placeholder="Password"
+            name="Password"
+            required
+          />
+        </div>
+        <div class="input_field">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            class="input"
+            placeholder="Confirm Password"
+            name="Confirm Password"
+            required
+          />
+        </div>
+        <div class="input_field">
+        <input type="submit" value="Register" class="signupbtn" />
+        </div>
+      </form>
+    </div>
+     <li><a href="about.html" class="back">back</a></li>
+
+  </body>
+</html>
